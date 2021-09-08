@@ -1,0 +1,20 @@
+{
+  "name": "h5house",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "vue": "^3.0.4",
+    "vue-router": "^4.0.11",
+    "vuex": "^3.6.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.1.5",
+    "@vue/compiler-sfc": "^3.0.4",
+    "autoprefixer": "8.0.0",
+    "postcss-px-to-viewport": "^1.1.1",
+    "vite": "^1.0.0-rc.13"
+  }
+}

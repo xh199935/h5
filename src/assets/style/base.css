@@ -1,0 +1,25 @@
+body, html, div, p, a, span, input, textarea, button, table, th, td, ul, li, ol {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+input, textarea {
+  outline: none;
+}
+
+textarea {
+  resize: none;
+}
+
+.m-picker-header span:last-of-type {
+  color: #3c78ff !important;
+}
