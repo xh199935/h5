@@ -1,10 +1,10 @@
 <template>
-  <Header />
+  <div>home</div>
 </template>
 
 <script>
-
 export default {
+
 }
 </script>
 

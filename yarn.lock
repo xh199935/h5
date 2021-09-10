@@ -64,6 +64,11 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
+"@popperjs/core@^2.9.2":
+  version "2.10.1"
+  resolved "https://registry.nlark.com/@popperjs/core/download/@popperjs/core-2.10.1.tgz#728ecd95ab207aab8a9a4e421f0422db329232be"
+  integrity sha1-co7NlasgequKmk5CHwQi2zKSMr4=
+
 "@rollup/plugin-commonjs@^16.0.0":
   version "16.0.0"
   resolved "https://registry.nlark.com/@rollup/plugin-commonjs/download/@rollup/plugin-commonjs-16.0.0.tgz?cache=0&sync_timestamp=1627649915187&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40rollup%2Fplugin-commonjs%2Fdownload%2F%40rollup%2Fplugin-commonjs-16.0.0.tgz#169004d56cd0f0a1d0f35915d31a036b0efe281f"
@@ -267,6 +272,28 @@
     "@types/mime" "^1"
     "@types/node" "*"
 
+"@vant/icons@^1.7.0":
+  version "1.7.0"
+  resolved "https://registry.nlark.com/@vant/icons/download/@vant/icons-1.7.0.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40vant%2Ficons%2Fdownload%2F%40vant%2Ficons-1.7.0.tgz#02d427532a8142c35db159da9c364fe6890c3ac9"
+  integrity sha1-AtQnUyqBQsNdsVnanDZP5okMOsk=
+
+"@vant/lazyload@^1.2.0":
+  version "1.2.0"
+  resolved "https://registry.nlark.com/@vant/lazyload/download/@vant/lazyload-1.2.0.tgz?cache=0&sync_timestamp=1620007499934&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40vant%2Flazyload%2Fdownload%2F%40vant%2Flazyload-1.2.0.tgz#62e9779bd7844ad8f71c2ca2bf852e6147c7a86d"
+  integrity sha1-Yul3m9eEStj3HCyiv4UuYUfHqG0=
+
+"@vant/popperjs@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.npm.taobao.org/@vant/popperjs/download/@vant/popperjs-1.1.0.tgz?cache=0&sync_timestamp=1617713172143&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40vant%2Fpopperjs%2Fdownload%2F%40vant%2Fpopperjs-1.1.0.tgz#b4edee5bbfa6fb18705986e313d4fd5f17942a0f"
+  integrity sha1-tO3uW7+m+xhwWYbjE9T9XxeUKg8=
+  dependencies:
+    "@popperjs/core" "^2.9.2"
+
+"@vant/use@^1.3.0":
+  version "1.3.0"
+  resolved "https://registry.nlark.com/@vant/use/download/@vant/use-1.3.0.tgz?cache=0&sync_timestamp=1628323438251&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40vant%2Fuse%2Fdownload%2F%40vant%2Fuse-1.3.0.tgz#b7d461c00078f7501ff7678771f1431fbf747b42"
+  integrity sha1-t9RhwAB491Af92eHcfFDH790e0I=
+
 "@vitejs/plugin-vue@^1.1.5":
   version "1.6.1"
   resolved "https://registry.nlark.com/@vitejs/plugin-vue/download/@vitejs/plugin-vue-1.6.1.tgz?cache=0&sync_timestamp=1630938429542&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40vitejs%2Fplugin-vue%2Fdownload%2F%40vitejs%2Fplugin-vue-1.6.1.tgz#a40a06661af61fdc1bebdfb811b28f50ad39dfb3"
@@ -418,6 +445,18 @@ at-least-node@^1.0.0:
   resolved "https://registry.npm.taobao.org/at-least-node/download/at-least-node-1.0.0.tgz#602cd4b46e844ad4effc92a8011a3c46e0238dc2"
   integrity sha1-YCzUtG6EStTv/JKoARo8RuAjjcI=
 
+autoprefixer@8.0.0:
+  version "8.0.0"
+  resolved "https://registry.nlark.com/autoprefixer/download/autoprefixer-8.0.0.tgz#c19e480f061013127c373df0b01cf46919943f74"
+  integrity sha1-wZ5IDwYQExJ8Nz3wsBz0aRmUP3Q=
+  dependencies:
+    browserslist "^3.0.0"
+    caniuse-lite "^1.0.30000808"
+    normalize-range "^0.1.2"
+    num2fraction "^1.2.2"
+    postcss "^6.0.17"
+    postcss-value-parser "^3.2.3"
+
 balanced-match@^1.0.0:
   version "1.0.2"
   resolved "https://registry.npm.taobao.org/balanced-match/download/balanced-match-1.0.2.tgz#e83e3a7e3f300b34cb9d87f615fa0cbf357690ee"
@@ -474,6 +513,14 @@ brotli-size@^4.0.0:
   dependencies:
     duplexer "0.1.1"
 
+browserslist@^3.0.0:
+  version "3.2.8"
+  resolved "https://registry.nlark.com/browserslist/download/browserslist-3.2.8.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fbrowserslist%2Fdownload%2Fbrowserslist-3.2.8.tgz#b0005361d6471f0f5952797a76fc985f1f978fc6"
+  integrity sha1-sABTYdZHHw9ZUnl6dvyYXx+Xj8Y=
+  dependencies:
+    caniuse-lite "^1.0.30000844"
+    electron-to-chromium "^1.3.47"
+
 buffer-from@^1.0.0:
   version "1.1.2"
   resolved "https://registry.nlark.com/buffer-from/download/buffer-from-1.1.2.tgz#2b146a6fd72e80b4f55d255f35ed59a3a9a41bd5"
@@ -510,7 +557,12 @@ cache-content-type@^1.0.0:
     mime-types "^2.1.18"
     ylru "^1.2.0"
 
-chalk@^2.0.0, chalk@^2.4.2:
+caniuse-lite@^1.0.30000808, caniuse-lite@^1.0.30000844:
+  version "1.0.30001255"
+  resolved "https://registry.nlark.com/caniuse-lite/download/caniuse-lite-1.0.30001255.tgz?cache=0&sync_timestamp=1630892970889&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fcaniuse-lite%2Fdownload%2Fcaniuse-lite-1.0.30001255.tgz#f3b09b59ab52e39e751a569523618f47c4298ca0"
+  integrity sha1-87CbWatS4551GlaVI2GPR8QpjKA=
+
+chalk@^2.0.0, chalk@^2.4.1, chalk@^2.4.2:
   version "2.4.2"
   resolved "https://registry.nlark.com/chalk/download/chalk-2.4.2.tgz?cache=0&sync_timestamp=1627646697260&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fchalk%2Fdownload%2Fchalk-2.4.2.tgz#cd42541677a54333cf541a49108c1432b44c9424"
   integrity sha1-zUJUFnelQzPPVBpJEIwUMrRMlCQ=
@@ -527,7 +579,7 @@ chalk@^4.1.0:
     ansi-styles "^4.1.0"
     supports-color "^7.1.0"
 
-chokidar@^3.4.2:
+"chokidar@>=3.0.0 <4.0.0", chokidar@^3.4.2:
   version "3.5.2"
   resolved "https://registry.nlark.com/chokidar/download/chokidar-3.5.2.tgz?cache=0&sync_timestamp=1623763535523&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fchokidar%2Fdownload%2Fchokidar-3.5.2.tgz#dba3976fcadb016f66fd365021d91600d01c1e75"
   integrity sha1-26OXb8rbAW9m/TZQIdkWANAcHnU=
@@ -745,6 +797,11 @@ ee-first@1.1.1:
   version "1.1.1"
   resolved "https://registry.npm.taobao.org/ee-first/download/ee-first-1.1.1.tgz#590c61156b0ae2f4f0255732a158b266bc56b21d"
   integrity sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=
+
+electron-to-chromium@^1.3.47:
+  version "1.3.833"
+  resolved "https://registry.nlark.com/electron-to-chromium/download/electron-to-chromium-1.3.833.tgz#e1394eb32ab8a9430ffd7d5adf632ce6c3b05e18"
+  integrity sha1-4TlOsyq4qUMP/X1a32Ms5sOwXhg=
 
 emojis-list@^3.0.0:
   version "3.0.0"
@@ -1439,12 +1496,27 @@ normalize-path@^3.0.0, normalize-path@~3.0.0:
   resolved "https://registry.npm.taobao.org/normalize-path/download/normalize-path-3.0.0.tgz#0dcd69ff23a1c9b11fd0978316644a0388216a65"
   integrity sha1-Dc1p/yOhybEf0JeDFmRKA4ghamU=
 
+normalize-range@^0.1.2:
+  version "0.1.2"
+  resolved "https://registry.npm.taobao.org/normalize-range/download/normalize-range-0.1.2.tgz#2d10c06bdfd312ea9777695a4d28439456b75942"
+  integrity sha1-LRDAa9/TEuqXd2laTShDlFa3WUI=
+
 npm-run-path@^4.0.0:
   version "4.0.1"
   resolved "https://registry.npm.taobao.org/npm-run-path/download/npm-run-path-4.0.1.tgz#b7ecd1e5ed53da8e37a55e1c2269e0b97ed748ea"
   integrity sha1-t+zR5e1T2o43pV4cImnguX7XSOo=
   dependencies:
     path-key "^3.0.0"
+
+num2fraction@^1.2.2:
+  version "1.2.2"
+  resolved "https://registry.nlark.com/num2fraction/download/num2fraction-1.2.2.tgz#6f682b6a027a4e9ddfa4564cd2589d1d4e669ede"
+  integrity sha1-b2gragJ6Tp3fpFZM0lidHU5mnt4=
+
+object-assign@>=4.0.1:
+  version "4.1.1"
+  resolved "https://registry.nlark.com/object-assign/download/object-assign-4.1.1.tgz?cache=0&sync_timestamp=1618847043548&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fobject-assign%2Fdownload%2Fobject-assign-4.1.1.tgz#2109adc7965887cfc05cbbd442cac8bfbb360863"
+  integrity sha1-IQmtx5ZYh8/AXLvUQsrIv7s2CGM=
 
 on-finished@^2.3.0:
   version "2.3.0"
@@ -1618,6 +1690,14 @@ postcss-modules@^4.0.0:
     postcss-modules-values "^4.0.0"
     string-hash "^1.1.1"
 
+postcss-px-to-viewport@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.npm.taobao.org/postcss-px-to-viewport/download/postcss-px-to-viewport-1.1.1.tgz#a25ca410b553c9892cc8b525cc710da47bf1aa55"
+  integrity sha1-olykELVTyYksyLUlzHENpHvxqlU=
+  dependencies:
+    object-assign ">=4.0.1"
+    postcss ">=5.0.2"
+
 postcss-selector-parser@^6.0.2, postcss-selector-parser@^6.0.4:
   version "6.0.6"
   resolved "https://registry.nlark.com/postcss-selector-parser/download/postcss-selector-parser-6.0.6.tgz?cache=0&sync_timestamp=1620752939806&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fpostcss-selector-parser%2Fdownload%2Fpostcss-selector-parser-6.0.6.tgz#2c5bba8174ac2f6981ab631a42ab0ee54af332ea"
@@ -1636,6 +1716,24 @@ postcss-value-parser@^4.1.0:
   resolved "https://registry.nlark.com/postcss-value-parser/download/postcss-value-parser-4.1.0.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fpostcss-value-parser%2Fdownload%2Fpostcss-value-parser-4.1.0.tgz#443f6a20ced6481a2bda4fa8532a6e55d789a2cb"
   integrity sha1-RD9qIM7WSBor2k+oUypuVdeJoss=
 
+postcss@>=5.0.2, postcss@^8.1.10:
+  version "8.3.6"
+  resolved "https://registry.nlark.com/postcss/download/postcss-8.3.6.tgz?cache=0&sync_timestamp=1626882960231&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fpostcss%2Fdownload%2Fpostcss-8.3.6.tgz#2730dd76a97969f37f53b9a6096197be311cc4ea"
+  integrity sha1-JzDddql5afN/U7mmCWGXvjEcxOo=
+  dependencies:
+    colorette "^1.2.2"
+    nanoid "^3.1.23"
+    source-map-js "^0.6.2"
+
+postcss@^6.0.17:
+  version "6.0.23"
+  resolved "https://registry.nlark.com/postcss/download/postcss-6.0.23.tgz?cache=0&sync_timestamp=1626882933935&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fpostcss%2Fdownload%2Fpostcss-6.0.23.tgz#61c82cc328ac60e677645f979054eb98bc0e3324"
+  integrity sha1-YcgswyisYOZ3ZF+XkFTrmLwOMyQ=
+  dependencies:
+    chalk "^2.4.1"
+    source-map "^0.6.1"
+    supports-color "^5.4.0"
+
 postcss@^7.0.0, postcss@^7.0.1:
   version "7.0.36"
   resolved "https://registry.nlark.com/postcss/download/postcss-7.0.36.tgz?cache=0&sync_timestamp=1626882960231&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fpostcss%2Fdownload%2Fpostcss-7.0.36.tgz#056f8cffa939662a8f5905950c07d5285644dfcb"
@@ -1644,15 +1742,6 @@ postcss@^7.0.0, postcss@^7.0.1:
     chalk "^2.4.2"
     source-map "^0.6.1"
     supports-color "^6.1.0"
-
-postcss@^8.1.10:
-  version "8.3.6"
-  resolved "https://registry.nlark.com/postcss/download/postcss-8.3.6.tgz?cache=0&sync_timestamp=1626882960231&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fpostcss%2Fdownload%2Fpostcss-8.3.6.tgz#2730dd76a97969f37f53b9a6096197be311cc4ea"
-  integrity sha1-JzDddql5afN/U7mmCWGXvjEcxOo=
-  dependencies:
-    colorette "^1.2.2"
-    nanoid "^3.1.23"
-    source-map-js "^0.6.2"
 
 pump@^3.0.0:
   version "3.0.0"
@@ -1801,6 +1890,13 @@ safe-buffer@^5.1.0, safe-buffer@~5.2.0:
   resolved "https://registry.npm.taobao.org/safe-buffer/download/safe-buffer-5.2.1.tgz#1eaf9fa9bdb1fdd4ec75f58f9cdb4e6b7827eec6"
   integrity sha1-Hq+fqb2x/dTsdfWPnNtOa3gn7sY=
 
+sass@^1.32.8:
+  version "1.39.0"
+  resolved "https://registry.nlark.com/sass/download/sass-1.39.0.tgz?cache=0&sync_timestamp=1630545006336&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fsass%2Fdownload%2Fsass-1.39.0.tgz#6c64695d1c437767c8f1a4e471288e831f81d035"
+  integrity sha1-bGRpXRxDd2fI8aTkcSiOgx+B0DU=
+  dependencies:
+    chokidar ">=3.0.0 <4.0.0"
+
 selfsigned@^1.10.8:
   version "1.10.11"
   resolved "https://registry.nlark.com/selfsigned/download/selfsigned-1.10.11.tgz#24929cd906fe0f44b6d01fb23999a739537acbe9"
@@ -1904,9 +2000,9 @@ strip-final-newline@^2.0.0:
   resolved "https://registry.nlark.com/strip-final-newline/download/strip-final-newline-2.0.0.tgz?cache=0&sync_timestamp=1620046435959&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fstrip-final-newline%2Fdownload%2Fstrip-final-newline-2.0.0.tgz#89b852fb2fcbe936f6f4b3187afb0a12c1ab58ad"
   integrity sha1-ibhS+y/L6Tb29LMYevsKEsGrWK0=
 
-supports-color@^5.3.0:
+supports-color@^5.3.0, supports-color@^5.4.0:
   version "5.5.0"
-  resolved "https://registry.nlark.com/supports-color/download/supports-color-5.5.0.tgz?cache=0&sync_timestamp=1626703342506&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fsupports-color%2Fdownload%2Fsupports-color-5.5.0.tgz#e2e69a44ac8772f78a1ec0b35b689df6530efc8f"
+  resolved "https://registry.nlark.com/supports-color/download/supports-color-5.5.0.tgz?cache=0&sync_timestamp=1626703414084&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fsupports-color%2Fdownload%2Fsupports-color-5.5.0.tgz#e2e69a44ac8772f78a1ec0b35b689df6530efc8f"
   integrity sha1-4uaaRKyHcveKHsCzW2id9lMO/I8=
   dependencies:
     has-flag "^3.0.0"
@@ -1974,6 +2070,16 @@ util-deprecate@^1.0.1, util-deprecate@^1.0.2:
   resolved "https://registry.nlark.com/util-deprecate/download/util-deprecate-1.0.2.tgz#450d4dc9fa70de732762fbd2d4a28981419a0ccf"
   integrity sha1-RQ1Nyfpw3nMnYvvS1KKJgUGaDM8=
 
+vant@^3.2.2:
+  version "3.2.2"
+  resolved "https://registry.nlark.com/vant/download/vant-3.2.2.tgz#07479bf882bc65e5422ae0ff229e3beeb0389ddd"
+  integrity sha1-B0eb+IK8ZeVCKuD/Ip477rA4nd0=
+  dependencies:
+    "@vant/icons" "^1.7.0"
+    "@vant/lazyload" "^1.2.0"
+    "@vant/popperjs" "^1.1.0"
+    "@vant/use" "^1.3.0"
+
 vary@^1.1.2:
   version "1.1.2"
   resolved "https://registry.nlark.com/vary/download/vary-1.1.2.tgz#2299f02c6ded30d4a5961b0b9f74524a18f634fc"
@@ -2040,9 +2146,9 @@ vite@^1.0.0-rc.13:
     vue "^3.0.3"
     ws "^7.3.1"
 
-vue-router@4:
+vue-router@^4.0.11:
   version "4.0.11"
-  resolved "https://registry.nlark.com/vue-router/download/vue-router-4.0.11.tgz?cache=0&sync_timestamp=1628495505697&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fvue-router%2Fdownload%2Fvue-router-4.0.11.tgz#cd649a0941c635281763a20965b599643ddc68ed"
+  resolved "https://registry.nlark.com/vue-router/download/vue-router-4.0.11.tgz#cd649a0941c635281763a20965b599643ddc68ed"
   integrity sha1-zWSaCUHGNSgXY6IJZbWZZD3caO0=
   dependencies:
     "@vue/devtools-api" "^6.0.0-beta.14"
