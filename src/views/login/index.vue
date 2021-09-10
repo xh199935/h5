@@ -81,7 +81,7 @@ export default {
     height: 44.4vw;
     right: 0;
     top: 6.4vw;
-    background: url("../../assets/img/login-bg.png") 0 0 / contain no-repeat;
+    background: url("@/assets/img/login-bg.png") 0 0 / contain no-repeat;
     z-index: 9999;
   }
   .login-form {

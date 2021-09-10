@@ -15,8 +15,10 @@
     "@vitejs/plugin-vue": "^1.1.5",
     "@vue/compiler-sfc": "^3.0.4",
     "autoprefixer": "8.0.0",
+    "postcss": "^8.3.6",
+    "postcss-loader": "^6.1.1",
     "postcss-px-to-viewport": "^1.1.1",
     "sass": "^1.32.8",
-    "vite": "^1.0.0-rc.13"
+    "vite": "^2.1.0"
   }
 }

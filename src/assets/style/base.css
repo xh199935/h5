@@ -1,3 +1,7 @@
+*{
+  margin: 0;
+  padding: 0;
+}
 body, html, div, p, a, span, input, textarea, button, table, th, td, ul, li, ol {
   padding: 0;
   margin: 0;

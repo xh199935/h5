@@ -1,6 +1,6 @@
-import Login from '../views/login/index.vue'
-import Home from '../views/Home/index.vue'
-import { Notify } from 'vant';
+import Login from '@/views/login/index.vue'
+import Home from '@/views/Home/index.vue'
+
 import { createRouter, createWebHashHistory } from "vue-router";
 
 const routes = [

@@ -1,8 +1,8 @@
 <template>
   <div class="header-content">
     <img v-if="back"
-         src="../../assets/img/back_icon.svg"><img v-else
-         src="../../assets/img/back_white_icon.svg">
+         src="@/assets/img/back_icon.svg"><img v-else
+         src="@/assets/img/back_white_icon.svg">
     {{title ? title : $route.meta.title}}
   </div>
 </template>
