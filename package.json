@@ -2,8 +2,8 @@
   "name": "h5house",
   "version": "0.0.0",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build"
+    "build": "vite build",
+    "dev": "vite"
   },
   "dependencies": {
     "vant": "^3.2.2",
@@ -13,12 +13,15 @@
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^1.1.5",
+    "@vue/cli-plugin-typescript": "~4.5.0",
+    "@vue/cli-service": "^4.5.13",
     "@vue/compiler-sfc": "^3.0.4",
     "autoprefixer": "8.0.0",
     "postcss": "^8.3.6",
     "postcss-loader": "^6.1.1",
     "postcss-px-to-viewport": "^1.1.1",
     "sass": "^1.32.8",
+    "typescript": "^4.4.3",
     "vite": "^2.1.0"
   }
 }

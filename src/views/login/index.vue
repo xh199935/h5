@@ -32,39 +32,38 @@
 
 </template>
 
-<script>
-import { ref } from 'vue'
-import { useRouter } from 'vue-router'
-import { useStore } from 'vuex'
+<script lang="ts">
+import { ref } from "vue";
+import { useRouter } from "vue-router";
+import { useStore } from "vuex";
 export default {
-  setup () {
+  setup() {
+    const router = useRouter();
+    const store = useStore();
 
-    const router = useRouter()
-    const store = useStore()
-
-    const username = ref('admin')
-    const password = ref('123456')
+    const username = ref("admin");
+    const password = ref("123456");
     const onSubmit = (p) => {
       const data = {
-        token: 'true',
+        token: "true",
         userInfo: {
-          name: '牛牛',
-          age: '1',
-          sex: '男'
-        }
-      }
-      store.dispatch('SET_USERINFO', data)
-      router.push('/')
-    }
+          name: "牛牛",
+          age: "1",
+          sex: "男",
+        },
+      };
+      store.dispatch("SET_USERINFO", data);
+      router.push("/");
+    };
 
     return {
       // form,
       username,
       password,
-      onSubmit
-    }
-  }
-}
+      onSubmit,
+    };
+  },
+};
 </script>
 
 <style lang="scss" scoped>
@@ -96,6 +95,7 @@ export default {
       color: #3c78ff;
       text-align: left;
       padding-left: 36px;
+      padding-top: 10px;
     }
   }
 }

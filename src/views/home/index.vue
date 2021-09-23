@@ -5,16 +5,16 @@
   </div>
 </template>
 
-<script>
-import { ref } from 'vue'
+<script lang="ts">
+import { ref } from "vue";
 export default {
-  setup () {
-    const msg = ref('得宠上已经发布了36295只宠物信息')
+  setup() {
+    const msg = ref("得宠上已经发布了36295只宠物信息");
     return {
-      msg
-    }
-  }
-}
+      msg,
+    };
+  },
+};
 </script>
 
 <style lang="scss" scoped>

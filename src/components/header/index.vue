@@ -7,16 +7,15 @@
   </div>
 </template>
 
-<script>
+<script lang="ts">
 export default {
   props: {
-    back: false
+    back: false,
   },
-  setup (props) {
-    return {
-    }
-  }
-}
+  setup(props) {
+    return {};
+  },
+};
 </script>
 
 <style lang="scss" scoped>

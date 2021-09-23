@@ -1,24 +1,27 @@
 /*
  * @Description: 配置文件 等同于 vue.config.js
- * @Author: 翁庆雨 <wqy.mail@foxmail.com>
+ * @Author: xuhao 
  * @Date: 2021-02-01 09:48:43
  * @LastEditTime: 2021-04-16 17:19:26
- * @LastEditors: 翁庆雨  <wqy.mail@foxmail.com>
- * @FilePath: \wfs-lsd\vite.config.js
+ * @LastEditors: xuhao 
+ * @FilePath: \h5\vite.config.js
  */
 import { resolve } from "path";
+import { defineConfig } from 'vite'
 import vue from "@vitejs/plugin-vue";
 
 // vite.config.js # or vite.config.ts
 
-module.exports = {
+export default defineConfig({
   // 引入第三方的配置
   // optimizeDeps: {
   //   include: ["echarts"]
   // },
-  alias: {
-    // 键必须以斜线开始和结束
-    "@": resolve(__dirname, "./src"),
+  resolve: {
+    alias: {
+      // 键必须以斜线开始和结束
+      "@": resolve(__dirname, "./src"),
+    }
   },
   server: {
     port: 3000,
@@ -61,4 +64,4 @@ module.exports = {
   //     rewrite: path => path.replace(/^\/api/, '')
   //   }
   // }
-};
+});
